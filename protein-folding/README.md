@@ -16,6 +16,9 @@
 | AlphaFold-Multimer    | 2021     | Deep learning                                  | | None                                                           | None                                                                           | [10.1101/2021.10.04.463034v2](https://doi.org/10.1101/2021.10.04.463034v2)   |
 | ESM2                  | 2021     | Transformer-based                              | | [GitHub](https://github.com/facebookresearch/esm/tree/main)    | None                                                                           | [10.1073/pnas.2016239118](https://doi.org/10.1073/pnas.2016239118)          |
 | ColabFold             | 2021     | Deep learning                                  | | [GitHub](https://github.com/sokrypton/ColabFold)               | None                                                                           | None                                                                 |
+| ProteinTTT            | 2024     | Deep learning                                  | | None                                                           | None                                                                           | [arXiv:2411.00210](https://arxiv.org/abs/2411.00210)                         |
+| Boltz-gen             | 2025     | Deep learning                                  | | None                                                           | [Boltz-gen](https://boltz.bio/boltzgen)                                        | None                                                                          |
+| alphafast             | 2026     | GPU-accelerated MMseqs2                        | | [GitHub](https://github.com/RomeroLab/alphafast)               | None                                                                           | [10.64898/2026.02.17.706409](https://www.biorxiv.org/content/10.64898/2026.02.17.706409v1) |
 
 
 
