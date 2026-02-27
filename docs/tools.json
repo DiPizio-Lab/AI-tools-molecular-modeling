@@ -726,28 +726,17 @@
     "task": "Structure clustering"
   },
   {
-    "name": "D-Flow",
-    "year": 2025,
-    "arch": "flow-matching",
-    "cat": "peptide-docking",
-    "code": "https://github.com/smiles724/PeptideDesign",
-    "web": null,
-    "ref": "D-Flow: Multi-modality Flow Matching for D-peptide Design",
-    "refUrl": "https://ai4d3.github.io/2025/papers/9_D_Flow_Multi_modality_Flow_M.pdf",
-    "task": "D-peptide design and protein–peptide co-design"
-  },
-  {
     "name": "DiffPepBuilder",
     "year": 2024,
-    "arch": "diffusion",
+    "arch": "Diffusion",
     "cat": "peptide-docking",
     "code": "https://github.com/YuzheWangPKU/DiffPepBuilder",
     "web": null,
     "ref": "10.1021/acs.jcim.4c00975",
     "refUrl": "https://doi.org/10.1021/acs.jcim.4c00975",
     "task": "Target-specific de novo peptide binder design"
-    },
-    {
+  },
+  {
     "name": "HELM-GPT",
     "year": 2024,
     "arch": "Generative pretrained transformer",
@@ -758,10 +747,10 @@
     "refUrl": "https://doi.org/10.1093/bioinformatics/btae364",
     "task": "De novo macrocyclic peptide design"
   },
-    {
+  {
     "name": "CycleDesigner",
     "year": 2025,
-    "arch": "diffusion",
+    "arch": "Diffusion",
     "cat": "peptide-docking",
     "code": "https://github.com/hongliangduan/CycleDesigner",
     "web": null,
@@ -769,29 +758,18 @@
     "refUrl": "https://doi.org/10.1021/acs.jcim.5c00227",
     "task": "Cyclic peptide binder design for specific protein targets"
   },
-    {
-    "name": "PepMLM",
-    "year": 2024,
-    "arch": "masked language model",
-    "cat": "peptide-design",
-    "code": null,
-    "web": null,
-    "ref": null,
-    "refUrl": null,
-    "task": "Target sequence-conditioned de novo peptide binder generation"
-  },
-    {
+  {
     "name": "PepPrCLIP",
     "year": 2024,
-    "arch": "contrastive language model",
+    "arch": "Contrastive language model",
     "cat": "peptide-design",
     "code": "https://huggingface.co/ubiquitx/pepprclip",
     "web": null,
     "ref": "10.1101/2023.06.26.546591",
     "refUrl": "https://doi.org/10.1101/2023.06.26.546591",
-    "task": "Target sequence-conditioned peptide binder design via contrastive language modeling"
+    "task": "Target sequence-conditioned peptide binder design"
   },
-    {
+  {
     "name": "RareFoldGPCR",
     "year": 2025,
     "arch": "AlphaFold-like structure model",
@@ -802,10 +780,10 @@
     "refUrl": "https://doi.org/10.1101/2025.10.01.679733",
     "task": "GPCR agonist design with noncanonical amino acids"
   },
-    {
+  {
     "name": "RFD2-MI",
     "year": 2026,
-    "arch": "all-atom diffusion model",
+    "arch": "All-atom diffusion model",
     "cat": "peptide-design",
     "code": "https://github.com/RosettaCommons/RFDiffusion2_all_the_code",
     "web": null,
@@ -813,124 +791,114 @@
     "refUrl": "https://doi.org/10.1101/2025.09.29.678898",
     "task": "Phosphopeptide binder design"
   },
-    {
-    "name": "Foldseek",
-    "year": 2024,
-    "arch": "structural search algorithm",
-    "cat": "tools",
-    "code": "https://github.com/steineggerlab/foldseek",
-    "web": "https://search.foldseek.com/search",
-    "ref": "10.1038/s41587-023-01773-0",
-    "refUrl": "https://doi.org/10.1038/s41587-023-01773-0",
-    "task": "Fast protein structure similarity search and alignment"
-  },
-    {
+  {
     "name": "BoltzGen",
     "year": 2025,
-    "arch": "all-atom diffusion foundation model",
+    "arch": "All-atom diffusion foundation model",
     "cat": "peptide-design",
     "code": "https://github.com/boltzbio/boltz",
     "web": "https://boltz.bio/boltzgen",
     "ref": null,
     "refUrl": null,
-    "task": "Universal biomolecular binder design across proteins, peptides, nucleic acids and small molecules"
+    "task": "Universal biomolecular binder design"
   },
-    {
+  {
+    "name": "BoltzGen",
+    "year": 2025,
+    "arch": "All-atom diffusion foundation model",
+    "cat": "protein-design",
+    "code": "https://github.com/boltzbio/boltz",
+    "web": "https://boltz.bio/boltzgen",
+    "ref": null,
+    "refUrl": null,
+    "task": "Universal biomolecular binder design"
+  },
+  {
     "name": "FoldMark",
     "year": 2024,
-    "arch": "protein generative model watermarking framework",
+    "arch": "Protein generative model watermarking framework",
     "cat": "protein-design",
     "code": "https://github.com/zaixizhang/FoldMark",
     "web": "http://home.ustc.edu.cn/~zaixi/projects/FoldMark",
     "ref": "arXiv:2410.20354",
     "refUrl": "https://arxiv.org/abs/2410.20354",
-    "task": "Watermarking protein generative models for copyright protection and traceability"
+    "task": "Watermarking protein generative models"
   },
-      {
-    "name": "BoltzGen",
-    "year": 2025,
-    "arch": "all-atom diffusion foundation model",
-    "cat": "protein-design",
-    "code": "https://github.com/boltzbio/boltz",
-    "web": "https://boltz.bio/boltzgen",
-    "ref": null,
-    "refUrl": null,
-    "task": "Universal biomolecular binder design across proteins, peptides, nucleic acids and small molecules"
-  },
-    {
+  {
     "name": "PPIFlow",
     "year": 2026,
-    "arch": "flow matching protein generative model",
+    "arch": "Flow matching protein generative model",
     "cat": "peptide-design",
     "code": "https://github.com/Mingchenchen/PPIFlow",
     "web": null,
     "ref": "10.64898/2026.01.19.700484",
     "refUrl": "https://doi.org/10.64898/2026.01.19.700484",
-    "task": "De novo design of high-affinity protein binders and antibodies via flow matching"
+    "task": "De novo design of high-affinity protein binders and antibodies"
   },
-    {
+  {
     "name": "SaDiT",
     "year": 2026,
-    "arch": "latent diffusion transformer for protein structure generation",
+    "arch": "Latent diffusion transformer",
     "cat": "peptide-design",
     "code": null,
     "web": null,
     "ref": "arXiv:2602.06706",
     "refUrl": "https://arxiv.org/abs/2602.06706",
-    "task": "Fast de novo protein backbone design using latent structural tokenization and diffusion transformers"
+    "task": "Fast de novo protein backbone design"
   },
-    {
-    "name": "Generative artificial intelligence for de novo protein design",
+  {
+    "name": "Generative AI for de novo protein design",
     "year": 2024,
-    "arch": "review article",
+    "arch": "Review article",
     "cat": "review-articles",
     "code": null,
     "web": null,
     "ref": "10.1016/j.sbi.2024.102794",
     "refUrl": "https://doi.org/10.1016/j.sbi.2024.102794",
-    "task": "Review of generative AI approaches for de novo protein design including language and diffusion models"
+    "task": "Review of generative AI for de novo protein design"
   },
-    {
+  {
     "name": "Machine learning for functional protein design",
     "year": 2024,
-    "arch": "review article",
+    "arch": "Review article",
     "cat": "review-articles",
     "code": null,
     "web": null,
     "ref": "10.1038/s41587-024-02127-0",
     "refUrl": "https://doi.org/10.1038/s41587-024-02127-0",
-    "task": "Review of machine learning approaches for functional protein design across sequence, structure, and label modalities"
+    "task": "Review of ML for functional protein design"
   },
-      "name": "Teaching AI to Speak Protein",
+  {
+    "name": "Teaching AI to Speak Protein",
     "year": 2025,
-    "arch": "protein language models (foundation sequence models)",
-    "cat": "review",
+    "arch": "Review article",
+    "cat": "review-articles",
     "code": null,
     "web": "https://doi.org/10.1016/j.sbi.2025.102986",
     "ref": "10.1016/j.sbi.2025.102986",
     "refUrl": "https://doi.org/10.1016/j.sbi.2025.102986",
     "task": "Protein language models and AI-driven protein prediction and design"
   },
-    {
-    "name": "ProteinTTT",
+  {
+    "name": "ProteinTTT (2025)",
     "year": 2025,
-    "arch": "test-time training framework for protein language models",
+    "arch": "Test-time training framework",
     "cat": "tools",
     "code": "https://github.com/anton-bushuiev/ProteinTTT",
     "web": "https://arxiv.org/abs/2411.02109",
     "ref": "10.48550/arXiv.2411.02109",
     "refUrl": "https://doi.org/10.48550/arXiv.2411.02109",
-    "task": "Per-protein adaptation of protein language models for structure and function prediction"
-},
-
+    "task": "Per-protein adaptation of protein language models"
+  },
+  {
     "name": "Hamiltonian Flow Maps",
     "year": 2026,
-    "arch": "trajectory-free learned Hamiltonian flow maps for large-timestep molecular dynamics",
-    "cat": "methods",
+    "arch": "Learned Hamiltonian flow maps",
+    "cat": "conformational",
     "code": "https://github.com/ML4MolSim/hamiltonian-flow-maps",
     "web": "https://ml4molsim.github.io/hamiltonian-flow-maps/",
     "ref": "10.48550/arXiv.2601.22123",
     "refUrl": "https://doi.org/10.48550/arXiv.2601.22123",
-    "task": "Large-timestep molecular dynamics simulation via learned phase-space integration"
-}
+    "task": "Large-timestep molecular dynamics simulation"
+  }
 ]
