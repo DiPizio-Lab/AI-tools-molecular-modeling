@@ -910,5 +910,27 @@
     "ref": "10.1016/j.sbi.2025.102986",
     "refUrl": "https://doi.org/10.1016/j.sbi.2025.102986",
     "task": "Protein language models and AI-driven protein prediction and design"
-} 
+  },
+    {
+    "name": "ProteinTTT",
+    "year": 2025,
+    "arch": "test-time training framework for protein language models",
+    "cat": "tools",
+    "code": "https://github.com/anton-bushuiev/ProteinTTT",
+    "web": "https://arxiv.org/abs/2411.02109",
+    "ref": "10.48550/arXiv.2411.02109",
+    "refUrl": "https://doi.org/10.48550/arXiv.2411.02109",
+    "task": "Per-protein adaptation of protein language models for structure and function prediction"
+},
+
+    "name": "Hamiltonian Flow Maps",
+    "year": 2026,
+    "arch": "trajectory-free learned Hamiltonian flow maps for large-timestep molecular dynamics",
+    "cat": "methods",
+    "code": "https://github.com/ML4MolSim/hamiltonian-flow-maps",
+    "web": "https://ml4molsim.github.io/hamiltonian-flow-maps/",
+    "ref": "10.48550/arXiv.2601.22123",
+    "refUrl": "https://doi.org/10.48550/arXiv.2601.22123",
+    "task": "Large-timestep molecular dynamics simulation via learned phase-space integration"
+}
 ]
