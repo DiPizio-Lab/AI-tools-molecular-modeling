@@ -933,5 +933,27 @@
     "ref": "10.1016/j.sbi.2025.103213",
     "refUrl": "https://doi.org/10.1016/j.sbi.2025.103213",
     "task": "Generative modeling of molecular dynamics and protein conformational ensembles"
+  },
+  {
+    "name": "SMA-MD",
+    "year": 2023,
+    "arch": "surrogate model-assisted molecular dynamics combining generative models with reweighted short MD simulations",
+    "cat": "conformational",
+    "code": "https://github.com/olsson-group/sma-md",
+    "web": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2023-sx61w",
+    "ref": "10.26434/chemrxiv-2023-sx61w",
+    "refUrl": "https://doi.org/10.26434/chemrxiv-2023-sx61w",
+    "task": "Small-molecule conformational ensemble generation and thermodynamic sampling"
+  },
+  {
+    "name": "SMA-MD",
+    "year": 2023,
+    "arch": "surrogate model-assisted molecular dynamics combining generative models with reweighted short MD simulations",
+    "cat": "ligand-docking",
+    "code": "https://github.com/olsson-group/sma-md",
+    "web": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2023-sx61w",
+    "ref": "10.26434/chemrxiv-2023-sx61w",
+    "refUrl": "https://doi.org/10.26434/chemrxiv-2023-sx61w",
+    "task": "Small-molecule conformational ensemble generation and thermodynamic sampling"
   }
 ]
