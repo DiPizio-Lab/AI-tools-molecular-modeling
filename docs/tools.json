@@ -747,4 +747,26 @@
     "refUrl": "https://doi.org/10.1021/acs.jcim.4c00975",
     "task": "Target-specific de novo peptide binder design"
     },
+    {
+    "name": "HELM-GPT",
+    "year": 2024,
+    "arch": "Generative pretrained transformer",
+    "cat": "peptide-design",
+    "code": "https://github.com/charlesxu90/helm-gpt",
+    "web": null,
+    "ref": "10.1093/bioinformatics/btae364",
+    "refUrl": "https://doi.org/10.1093/bioinformatics/btae364",
+    "task": "De novo macrocyclic peptide design"
+  },
+    {
+    "name": "CycleDesigner",
+    "year": 2025,
+    "arch": "diffusion",
+    "cat": "peptide-docking",
+    "code": "https://github.com/hongliangduan/CycleDesigner",
+    "web": null,
+    "ref": "10.1021/acs.jcim.5c00227",
+    "refUrl": "https://doi.org/10.1021/acs.jcim.5c00227",
+    "task": "Cyclic peptide binder design for specific protein targets"
+  }
 ]
