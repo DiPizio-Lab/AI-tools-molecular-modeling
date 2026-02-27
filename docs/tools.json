@@ -999,5 +999,137 @@
     "ref": "10.64898/2026.01.28.702257",
     "refUrl": "https://doi.org/10.64898/2026.01.28.702257",
     "task": "Protein binding-site and cryptic pocket prediction"
+  },
+  {
+    "name": "Mechanisms of AI Protein Folding in ESMFold",
+    "year": 2026,
+    "arch": "mechanistic interpretability analysis of protein language model folding trunk using activation patching and causal representation steering",
+    "cat": "tools",
+    "code": "https://github.com/Kevin-Chen0/ESMFold-Mechanisms",
+    "web": "https://arxiv.org/abs/2602.06020",
+    "ref": "10.48550/arXiv.2602.06020",
+    "refUrl": "https://doi.org/10.48550/arXiv.2602.06020",
+    "task": "Mechanistic interpretation of protein structure prediction models"
+  },
+    {
+    "name": "Mechanisms of AI Protein Folding in ESMFold",
+    "year": 2026,
+    "arch": "mechanistic interpretability analysis of protein language model folding trunk using activation patching and causal representation steering",
+    "cat": "conformational",
+    "code": "https://github.com/Kevin-Chen0/ESMFold-Mechanisms",
+    "web": "https://arxiv.org/abs/2602.06020",
+    "ref": "10.48550/arXiv.2602.06020",
+    "refUrl": "https://doi.org/10.48550/arXiv.2602.06020",
+    "task": "Mechanistic interpretation of protein structure prediction models"
+  },
+  { 
+    "name": "Molecular Dynamics Language Models (MDLM)",
+    "year": 2024,
+    "arch": "GPT-style autoregressive language model generating molecular dynamics trajectories from discretized backbone-angle tokens with physics-guided KDE regularization",
+    "cat": "conformational",
+    "code": null,
+    "web": null,
+    "ref": "10.1101/2024.11.25.625337",
+    "refUrl": "https://doi.org/10.1101/2024.11.25.625337",
+    "task": "Protein conformational ensemble generation and molecular dynamics trajectory modeling"
+  },
+  {
+    "name": "MD-LLM-1",
+    "year": 2025,
+    "arch": "Mistral-7B large language model fine-tuned with LoRA to autoregressively generate protein molecular dynamics trajectories from FoldToken structural tokens",
+    "cat": "conformational",
+    "code": "https://github.com/AspirinCode/awesome-AI4MolConformation-MD",
+    "web": "https://arxiv.org/abs/2508.03709",
+    "ref": "10.48550/arXiv.2508.03709",
+    "refUrl": "https://doi.org/10.48550/arXiv.2508.03709",
+    "task": "Protein conformational ensemble generation and molecular dynamics trajectory prediction"
+  },
+  {
+    "name": "bAIes",
+    "year": 2025,
+    "arch": "Bayesian ensemble modeling framework integrating AlphaFold2 distogram restraints with atomistic random-coil molecular mechanics simulations",
+    "cat": "conformational",
+    "code": "https://github.com/COSBlab/bAIes-IDP",
+    "web": "https://www.biorxiv.org/content/10.1101/2025.06.18.660298v1",
+    "ref": "10.1101/2025.06.18.660298",
+    "refUrl": "https://doi.org/10.1101/2025.06.18.660298",
+    "task": "Atomic-resolution conformational ensemble generation of intrinsically disordered proteins"
+  },
+  {
+    "name": "ScoreMD",
+    "year": 2026,
+    "arch": "energy-based diffusion model with Fokker–Planck regularization for consistent molecular dynamics and equilibrium sampling",
+    "cat": "conformational",
+    "code": "https://github.com/noegroup/ScoreMD",
+    "web": "https://arxiv.org/abs/2506.17139",
+    "ref": "10.48550/arXiv.2506.17139",
+    "refUrl": "https://doi.org/10.48550/arXiv.2506.17139",
+    "task": "Consistent molecular dynamics simulation and equilibrium conformational sampling using diffusion-based force fields"
+  },
+  {
+    "name": "DynamicGT",
+    "year": 2026,
+    "arch": "dynamic-aware geometric transformer with cooperative graph neural networks integrating molecular dynamics features for protein interface prediction",
+    "cat": "binding",
+    "code": "https://github.com/amisteromid/DynamicGT",
+    "web": "https://www.sciencedirect.com/science/article/pii/S240547122500454X",
+    "ref": "10.1016/j.cels.2025.101454",
+    "refUrl": "https://doi.org/10.1016/j.cels.2025.101454",
+    "task": "Protein–protein binding interface prediction in flexible and intrinsically disordered regions"
+  },
+  {
+    "name": "DynamicGT",
+    "year": 2026,
+    "arch": "dynamic-aware geometric transformer with cooperative graph neural networks integrating molecular dynamics features for protein interface prediction",
+    "cat": "conformational",
+    "code": "https://github.com/amisteromid/DynamicGT",
+    "web": "https://www.sciencedirect.com/science/article/pii/S240547122500454X",
+    "ref": "10.1016/j.cels.2025.101454",
+    "refUrl": "https://doi.org/10.1016/j.cels.2025.101454",
+    "task": "Protein–protein binding interface prediction in flexible and intrinsically disordered regions"
+  },
+  {
+    "name": "Boltzmann Generators (bgflow)",
+    "year": 2019,
+    "arch": "invertible normalizing-flow generative model learning equilibrium coordinate transformations for efficient molecular configuration sampling",
+    "cat": "conformational",
+    "code": "https://github.com/noegroup/bgflow",
+    "web": "https://www.science.org/doi/10.1126/science.aaw1147",
+    "ref": "10.1126/science.aaw1147",
+    "refUrl": "https://doi.org/10.1126/science.aaw1147",
+    "task": "Equilibrium ensemble sampling and free-energy landscape exploration"
+  },
+  {
+    "name": "CryoPhold",
+    "year": 2025,
+    "arch": "integrative ensemble modeling workflow combining AlphaFold ensemble generation, Bayesian cryo-EM reweighting, molecular dynamics, and machine-learning–based kinetic modeling",
+    "cat": "conformational",
+    "code": "https://github.com/strauchlab/cryoPhold",
+    "web": "https://www.biorxiv.org/content/10.1101/2025.09.12.675912v1",
+    "ref": "10.1101/2025.09.12.675912",
+    "refUrl": "https://doi.org/10.1101/2025.09.12.675912",
+    "task": "Cryo-EM–guided protein conformational ensemble refinement and population estimation"
+  },
+  {
+    "name": "EmbedOpt",
+    "year": 2026,
+    "arch": "inference-time embedding optimization for steering protein diffusion models by adapting conditional embeddings to experimental likelihood constraints",
+    "cat": "conformational",
+    "code": null,
+    "web": "https://arxiv.org/abs/2602.05285",
+    "ref": "arXiv:2602.05285",
+    "refUrl": "https://arxiv.org/abs/2602.05285",
+    "task": "Experiment-guided protein conformational inference and diffusion-model steering"
+  },
+  {
+    "name": "RNAnneal",
+    "year": 2026,
+    "arch": "ab initio RNA ensemble generation combining diffusion-based thermodynamic maps with physics-based secondary structure sampling, 3D assembly, and molecular dynamics refinement",
+    "cat": "conformational",
+    "code": "https://go.umd.edu/rnanneal",
+    "web": "https://biorxiv.org/content/10.64898/2026.02.01.703098v1",
+    "ref": "10.64898/2026.02.01.703098",
+    "refUrl": "https://doi.org/10.64898/2026.02.01.703098",
+    "task": "Ab initio prediction of RNA structure ensembles and conformational landscapes"
   }
 ]
