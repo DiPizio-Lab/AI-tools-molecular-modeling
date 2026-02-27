@@ -900,5 +900,39 @@
     "ref": "10.48550/arXiv.2601.22123",
     "refUrl": "https://doi.org/10.48550/arXiv.2601.22123",
     "task": "Large-timestep molecular dynamics simulation"
-  }
+  },
+  {
+    "name": "Enhanced Diffusion Sampling",
+    "year": 2026,
+    "arch": "diffusion-model steering with bias-and-reweight enhanced sampling for rare-event thermodynamics",
+    "cat": "conformational",
+    "code": null,
+    "web": null,
+    "ref": "10.48550/arXiv.2602.16634",
+    "refUrl": "https://doi.org/10.48550/arXiv.2602.16634",
+    "task": "Rare-event sampling and free energy estimation using diffusion-based equilibrium samplers"
+  },
+  {
+    "name": "Protein dynamics prediction by integrating biophysics and artificial intelligence",
+    "year": 2026,
+    "arch": "integration of biophysical principles with AI models for protein conformational dynamics prediction",
+    "cat": "review-articles",
+    "type": "review",
+    "code": null,
+    "web": null,
+    "ref": "10.1016/j.sbi.2026.103223",
+    "refUrl": "https://doi.org/10.1016/j.sbi.2026.103223",
+    "task": "Protein conformational dynamics prediction and modeling via physics–AI integration"
+  },
+    "name": "Generative molecular dynamics",
+    "year": 2026,
+    "arch": "generative AI models emulating molecular dynamics distributions and transition dynamics",
+    "cat": "review-articles",
+    "type": "review",
+    "code": null,
+    "web": null,
+    "ref": "10.1016/j.sbi.2025.103213",
+    "refUrl": "https://doi.org/10.1016/j.sbi.2025.103213",
+    "task": "Generative modeling of molecular dynamics and protein conformational ensembles"
+}
 ]
