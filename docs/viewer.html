@@ -345,6 +345,145 @@
   }
   .no-results.visible { display: block; }
 
+  /* ── CREDITS ── */
+  .credits-section {
+    background: linear-gradient(160deg, #f0edfb 0%, #e8f4fd 60%, #e8f7f2 100%);
+    border-top: 1px solid var(--border);
+    padding: 56px 32px 40px;
+  }
+
+  .credits-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .credits-block { flex: 1; min-width: 300px; max-width: 540px; }
+
+  .credits-title {
+    font-family: 'Lora', serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .credits-cards { display: flex; flex-direction: column; gap: 14px; }
+
+  .credit-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 18px 20px;
+    transition: all 0.2s;
+  }
+  .credit-card:hover {
+    border-color: var(--accent);
+    box-shadow: 0 4px 20px rgba(124,111,205,0.1);
+    transform: translateY(-1px);
+  }
+
+  .credit-avatar {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    border: 2px solid var(--border);
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+
+  .credit-info {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    min-width: 0;
+  }
+
+  .credit-name {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: var(--text);
+  }
+
+  .credit-role {
+    font-size: 0.78rem;
+    color: var(--accent);
+    font-weight: 500;
+  }
+
+  .credit-affil {
+    font-size: 0.76rem;
+    color: var(--text-light);
+    text-decoration: none;
+    margin-top: 2px;
+    line-height: 1.4;
+  }
+  .credit-affil:hover { color: var(--accent); text-decoration: underline; }
+
+  .credit-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 8px;
+  }
+
+  .credit-link-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.74rem;
+    font-weight: 500;
+    color: var(--accent);
+    text-decoration: none;
+    padding: 3px 10px;
+    border-radius: 6px;
+    border: 1px solid var(--lavender);
+    background: var(--accent-light);
+    transition: all 0.15s;
+    white-space: nowrap;
+  }
+  .credit-link-btn:hover {
+    background: var(--accent);
+    color: white;
+    border-color: var(--accent);
+  }
+
+  .orcid-btn img {
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+  }
+
+  .credits-contact {
+    max-width: 1200px;
+    margin: 36px auto 0;
+    text-align: center;
+    font-size: 0.88rem;
+    color: var(--text-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding-top: 28px;
+    border-top: 1px solid var(--border);
+  }
+  .credits-contact a {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .credits-contact a:hover { text-decoration: underline; }
+
   /* ── FOOTER ── */
   footer {
     text-align: center;
@@ -551,8 +690,103 @@
   </div>
 </main>
 
+<!-- CREDITS -->
+<section class="credits-section">
+  <div class="credits-container">
+
+    <div class="credits-block">
+      <h3 class="credits-title">
+        <span class="credits-icon">🔬</span> Maintainers
+      </h3>
+      <div class="credits-cards">
+
+        <div class="credit-card">
+          <img src="https://github.com/DiPizio-Lab.png" alt="DiPizio-Lab" class="credit-avatar"/>
+          <div class="credit-info">
+            <span class="credit-name">Prof. Antonella Di Pizio</span>
+            <span class="credit-role">Principal Investigator</span>
+            <a href="https://www.mls.ls.tum.de/cpm/startseite/" target="_blank" class="credit-affil">Chemoinformatics and Protein Modelling group · LSB@TUM</a>
+            <div class="credit-links">
+              <a href="https://www.leibniz-lsb.de/en/institute/staff/dipizio" target="_blank" class="credit-link-btn">🌐 Website</a>
+              <a href="https://github.com/DiPizio-Lab" target="_blank" class="credit-link-btn">GitHub</a>
+              <a href="https://orcid.org/0000-0002-8520-5165" target="_blank" class="credit-link-btn orcid-btn">
+                <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID"/> 0000-0002-8520-5165
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="credit-card">
+          <img src="https://github.com/anicoli.png" alt="anicoli" class="credit-avatar"/>
+          <div class="credit-info">
+            <span class="credit-name">Alessandro Nicoli</span>
+            <span class="credit-role">Maintainer</span>
+            <a href="https://www.mls.ls.tum.de/cpm/startseite/" target="_blank" class="credit-affil">Chemoinformatics and Protein Modelling group · LSB@TUM</a>
+            <div class="credit-links">
+              <a href="https://portal.fis.leibniz-lsb.tum.de/de/persons/alessandro-nicoli/" target="_blank" class="credit-link-btn">🌐 Website</a>
+              <a href="https://github.com/anicoli" target="_blank" class="credit-link-btn">GitHub</a>
+              <a href="https://orcid.org/0000-0001-6177-9749" target="_blank" class="credit-link-btn orcid-btn">
+                <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID"/> 0000-0001-6177-9749
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="credits-block">
+      <h3 class="credits-title">
+        <span class="credits-icon">🧬</span> Contributors
+      </h3>
+      <div class="credits-cards">
+
+        <div class="credit-card">
+          <img src="https://github.com/Radox96.png" alt="Radox96" class="credit-avatar"/>
+          <div class="credit-info">
+            <span class="credit-name">Florian Bößl</span>
+            <span class="credit-role">Contributor</span>
+            <a href="https://www.mls.ls.tum.de/cpm/startseite/" target="_blank" class="credit-affil">Chemoinformatics and Protein Modelling group · LSB@TUM</a>
+            <div class="credit-links">
+              <a href="https://github.com/Radox96" target="_blank" class="credit-link-btn">GitHub</a>
+              <a href="https://orcid.org/0009-0008-8724-8901" target="_blank" class="credit-link-btn orcid-btn">
+                <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID"/> 0009-0008-8724-8901
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="credit-card">
+          <img src="https://github.com/RollerVincent.png" alt="RollerVincent" class="credit-avatar"/>
+          <div class="credit-info">
+            <span class="credit-name">Vincent Roller</span>
+            <span class="credit-role">Contributor · Web Development</span>
+            <a href="https://realvirtual.io" target="_blank" class="credit-affil">realvirtual.io</a>
+            <div class="credit-links">
+              <a href="https://www.freelancermap.de/profil/vincent-roller" target="_blank" class="credit-link-btn">🌐 Profile</a>
+              <a href="https://github.com/RollerVincent" target="_blank" class="credit-link-btn">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Contact -->
+  <div class="credits-contact">
+    <span>📬 Questions or suggestions?</span>
+    <a href="mailto:molecularmodeling.leibniz-lsb@tum.de">molecularmodeling.leibniz-lsb@tum.de</a>
+  </div>
+
+</section>
+
 <footer>
-  <p>Maintained by <a href="https://github.com/Radox96" target="_blank">Radox96</a> · <a href="https://github.com/Radox96" target="_blank">GitHub Repository</a> · Contributions welcome 🧬</p>
+  <p>
+    <a href="https://github.com/DiPizio-Lab/AI-tools-molecular-modeling" target="_blank">GitHub Repository</a>
+    · Contributions and suggestions are always welcome 🧬
+  </p>
 </footer>
 
 <script>
