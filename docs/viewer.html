@@ -667,6 +667,9 @@
     <button class="cat-tab" data-cat="tools">
       <span class="dot" style="background:#b8d9f0"></span> Analysis Tools
     </button>
+    <button class="cat-tab" data-cat="review-articles">
+      <span class="dot" style="background:#ffa0a0"></span> Review Articles
+    </button>
   </div>
 
   <!-- Table -->
@@ -777,7 +780,7 @@
   <!-- Contact -->
   <div class="credits-contact">
     <span>📬 Questions or suggestions?</span>
-    <a href="mailto:molecularmodeling.leibniz-lsb@tum.de">molecularmodeling.leibniz-lsb@tum.de</a>
+    <a href="/cdn-cgi/l/email-protection#9df0f2f1f8fee8f1fceff0f2f9f8f1f4f3fab3f1f8f4fff3f4e7b0f1eeffdde9e8f0b3f9f8"><span class="__cf_email__" data-cfemail="4c212320292f39202d3e212328292025222b622029252e22253661203f2e0c383921622829">[email&#160;protected]</span></a>
   </div>
 
 </section>
@@ -789,7 +792,7 @@
   </p>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 // ── DATA — loaded from tools.json ────────────────────────────────────
 let tools = [];
 
@@ -801,8 +804,9 @@ const catStyle = {
   "ligand-docking":   { label:"Ligand Docking",   bg:"#ede9ff", color:"#5a47b0" },
   "protein-design":   { label:"Protein Design",   bg:"#f3e9ff", color:"#7c35b5" },
   "peptide-design":   { label:"Peptide Design",   bg:"#fff0dc", color:"#9a6200" },
-  "conformational":   { label:"Conformational",   bg:"#e2f7e2", color:"#2a7a2a" },
+  "conformational":   { label:"Protein Dynamics", bg:"#e2f7e2", color:"#2a7a2a" },
   "tools":            { label:"Analysis Tools",   bg:"#e8eeff", color:"#3344aa" },
+  "review-articles":  { label:"Review Articles",  bg:"#ffd6d6", color:"#a83232" },
 };
 
 // ── RENDER ───────────────────────────────────────────────────────────
@@ -891,13 +895,4 @@ fetch('tools.json')
   .then(r => r.json())
   .then(data => {
     tools = data;
-    renderRows();
-  })
-  .catch(() => {
-    document.getElementById('noResults').textContent =
-      '⚠️ Could not load tools.json. Make sure it is in the same folder as index.html.';
-    document.getElementById('noResults').classList.add('visible');
-  });
-</script>
-</body>
-</html>
+    render
