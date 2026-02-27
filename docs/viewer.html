@@ -895,4 +895,13 @@ fetch('tools.json')
   .then(r => r.json())
   .then(data => {
     tools = data;
-    render
+    renderRows();
+  })
+  .catch(() => {
+    document.getElementById('noResults').textContent =
+      '⚠️ Could not load tools.json. Make sure it is in the same folder as index.html.';
+    document.getElementById('noResults').classList.add('visible');
+  });
+</script>
+</body>
+</html>
