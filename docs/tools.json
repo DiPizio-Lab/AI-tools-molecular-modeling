@@ -834,5 +834,49 @@
     "ref": null,
     "refUrl": null,
     "task": "Universal biomolecular binder design across proteins, peptides, nucleic acids and small molecules"
+  },
+    {
+    "name": "FoldMark",
+    "year": 2024,
+    "arch": "protein generative model watermarking framework",
+    "cat": "protein-design",
+    "code": "https://github.com/zaixizhang/FoldMark",
+    "web": "http://home.ustc.edu.cn/~zaixi/projects/FoldMark",
+    "ref": "arXiv:2410.20354",
+    "refUrl": "https://arxiv.org/abs/2410.20354",
+    "task": "Watermarking protein generative models for copyright protection and traceability"
+  },
+      {
+    "name": "BoltzGen",
+    "year": 2025,
+    "arch": "all-atom diffusion foundation model",
+    "cat": "protein-design",
+    "code": "https://github.com/boltzbio/boltz",
+    "web": "https://boltz.bio/boltzgen",
+    "ref": null,
+    "refUrl": null,
+    "task": "Universal biomolecular binder design across proteins, peptides, nucleic acids and small molecules"
+  },
+    {
+    "name": "PPIFlow",
+    "year": 2026,
+    "arch": "flow matching protein generative model",
+    "cat": "peptide-design",
+    "code": "https://github.com/Mingchenchen/PPIFlow",
+    "web": null,
+    "ref": "10.64898/2026.01.19.700484",
+    "refUrl": "https://doi.org/10.64898/2026.01.19.700484",
+    "task": "De novo design of high-affinity protein binders and antibodies via flow matching"
+  },
+    {
+    "name": "SaDiT",
+    "year": 2026,
+    "arch": "latent diffusion transformer for protein structure generation",
+    "cat": "peptide-design",
+    "code": null,
+    "web": null,
+    "ref": "arXiv:2602.06706",
+    "refUrl": "https://arxiv.org/abs/2602.06706",
+    "task": "Fast de novo protein backbone design using latent structural tokenization and diffusion transformers"
   }
 ]
