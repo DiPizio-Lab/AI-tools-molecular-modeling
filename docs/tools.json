@@ -1131,5 +1131,27 @@
     "ref": "10.64898/2026.02.01.703098",
     "refUrl": "https://doi.org/10.64898/2026.02.01.703098",
     "task": "Ab initio prediction of RNA structure ensembles and conformational landscapes"
+  },
+  {
+    "name": "Design_a_Protein",
+    "year": 2025,
+    "arch": "AI-guided de novo protein design platform",
+    "cat": "tools",
+    "code": null,
+    "web": "https://design-a-protein.com/",
+    "ref": null,
+    "refUrl": null,
+    "task": "De novo protein binder design"
+  },
+    {
+    "name": "Design_a_Protein",
+    "year": 2025,
+    "arch": "AI-guided de novo protein design platform",
+    "cat": "protein-design",
+    "code": null,
+    "web": "https://design-a-protein.com/",
+    "ref": null,
+    "refUrl": null,
+    "task": "De novo protein binder design"
   }
 ]
