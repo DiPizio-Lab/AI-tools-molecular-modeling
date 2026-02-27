@@ -812,5 +812,27 @@
     "ref": "10.1101/2025.09.29.678898",
     "refUrl": "https://doi.org/10.1101/2025.09.29.678898",
     "task": "Phosphopeptide binder design"
+  },
+    {
+    "name": "Foldseek",
+    "year": 2024,
+    "arch": "structural search algorithm",
+    "cat": "tools",
+    "code": "https://github.com/steineggerlab/foldseek",
+    "web": "https://search.foldseek.com/search",
+    "ref": "10.1038/s41587-023-01773-0",
+    "refUrl": "https://doi.org/10.1038/s41587-023-01773-0",
+    "task": "Fast protein structure similarity search and alignment"
+  },
+    {
+    "name": "BoltzGen",
+    "year": 2025,
+    "arch": "all-atom diffusion foundation model",
+    "cat": "peptide-design",
+    "code": "https://github.com/boltzbio/boltz",
+    "web": "https://boltz.bio/boltzgen",
+    "ref": null,
+    "refUrl": null,
+    "task": "Universal biomolecular binder design across proteins, peptides, nucleic acids and small molecules"
   }
 ]
