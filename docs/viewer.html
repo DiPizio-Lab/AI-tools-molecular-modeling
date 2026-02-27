@@ -598,7 +598,7 @@
         <div class="stat-label">Categories</div>
       </div>
       <div class="stat">
-        <div class="stat-num">2019–26</div>
+        <div class="stat-num">2020–25</div>
         <div class="stat-label">Coverage</div>
       </div>
     </div>
@@ -628,7 +628,6 @@
         <option value="2022">2022</option>
         <option value="2021">2021</option>
         <option value="2020">2020</option>
-        <option value="2019">2019</option>
       </select>
     </div>
 
@@ -696,7 +695,7 @@
       </thead>
       <tbody id="tableBody"></tbody>
     </table>
-    <div class="no-results" id="noResults">No tools match your search. Try different keywords or filters.</div>
+    <div class="no-results" id="noResults">No tools found for this search.</div>
   </div>
 </main>
 
@@ -944,9 +943,7 @@ fetch('tools.json')
     renderRows();
   })
   .catch(() => {
-    document.getElementById('noResults').textContent =
-      '⚠️ Could not load tools.json. Make sure it is in the same folder as index.html.';
-    document.getElementById('noResults').classList.add('visible');
+    // silent fail — table stays empty
   });
 </script>
 </body>
