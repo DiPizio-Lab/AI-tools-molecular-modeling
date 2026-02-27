@@ -768,5 +768,49 @@
     "ref": "10.1021/acs.jcim.5c00227",
     "refUrl": "https://doi.org/10.1021/acs.jcim.5c00227",
     "task": "Cyclic peptide binder design for specific protein targets"
+  },
+    {
+    "name": "PepMLM",
+    "year": 2024,
+    "arch": "masked language model",
+    "cat": "peptide-design",
+    "code": null,
+    "web": null,
+    "ref": null,
+    "refUrl": null,
+    "task": "Target sequence-conditioned de novo peptide binder generation"
+  },
+    {
+    "name": "PepPrCLIP",
+    "year": 2024,
+    "arch": "contrastive language model",
+    "cat": "peptide-design",
+    "code": "https://huggingface.co/ubiquitx/pepprclip",
+    "web": null,
+    "ref": "10.1101/2023.06.26.546591",
+    "refUrl": "https://doi.org/10.1101/2023.06.26.546591",
+    "task": "Target sequence-conditioned peptide binder design via contrastive language modeling"
+  },
+    {
+    "name": "RareFoldGPCR",
+    "year": 2025,
+    "arch": "AlphaFold-like structure model",
+    "cat": "peptide-design",
+    "code": "https://github.com/patrickbryant1/RareFoldGPCR",
+    "web": null,
+    "ref": "10.1101/2025.10.01.679733",
+    "refUrl": "https://doi.org/10.1101/2025.10.01.679733",
+    "task": "GPCR agonist design with noncanonical amino acids"
+  },
+    {
+    "name": "RFD2-MI",
+    "year": 2026,
+    "arch": "all-atom diffusion model",
+    "cat": "peptide-design",
+    "code": "https://github.com/RosettaCommons/RFDiffusion2_all_the_code",
+    "web": null,
+    "ref": "10.1101/2025.09.29.678898",
+    "refUrl": "https://doi.org/10.1101/2025.09.29.678898",
+    "task": "Phosphopeptide binder design"
   }
 ]
