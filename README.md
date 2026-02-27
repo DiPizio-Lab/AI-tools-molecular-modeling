@@ -1,6 +1,6 @@
 # List of AI Tools
 
-🌐 **Interactive website:** [AI-tools-molecular-modeling](https://dipizio-lab.github.io/AI-tools-molecular-modeling/interactive_viewer.html)
+🌐 **Interactive website:** [AI-tools-molecular-modeling](https://dipizio-lab.github.io/AI-tools-molecular-modeling/viewer.html)
 
 This repository is a comprehensive collection of AI-powered tools for molecular modeling applications, including protein structure prediction, de novo protein design, biomolecular interactions and conformational sampling.
 
