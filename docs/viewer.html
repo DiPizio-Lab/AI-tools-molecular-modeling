@@ -926,6 +926,7 @@ document.querySelector('thead tr').addEventListener('click', e => {
 });
 
 
+document.getElementById('catTabs').addEventListener('click', e => {
   const btn = e.target.closest('.cat-tab');
   if (!btn) return;
   document.querySelectorAll('.cat-tab').forEach(b => b.classList.remove('active'));
