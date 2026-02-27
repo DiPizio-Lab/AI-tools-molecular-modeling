@@ -735,5 +735,16 @@
     "ref": "D-Flow: Multi-modality Flow Matching for D-peptide Design",
     "refUrl": "https://ai4d3.github.io/2025/papers/9_D_Flow_Multi_modality_Flow_M.pdf",
     "task": "D-peptide design and protein–peptide co-design"
-  }
+  },
+  {
+    "name": "DiffPepBuilder",
+    "year": 2024,
+    "arch": "diffusion",
+    "cat": "peptide-docking",
+    "code": "https://github.com/YuzheWangPKU/DiffPepBuilder",
+    "web": null,
+    "ref": "10.1021/acs.jcim.4c00975",
+    "refUrl": "https://doi.org/10.1021/acs.jcim.4c00975",
+    "task": "Target-specific de novo peptide binder design"
+    },
 ]
