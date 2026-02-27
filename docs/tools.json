@@ -955,5 +955,49 @@
     "ref": "10.26434/chemrxiv-2023-sx61w",
     "refUrl": "https://doi.org/10.26434/chemrxiv-2023-sx61w",
     "task": "Small-molecule conformational ensemble generation and thermodynamic sampling"
+  },
+  {
+    "name": "KarmaDock",
+    "year": 2023,
+    "arch": "E(n)-equivariant graph neural network docking model with pose refinement and mixture-density affinity scoring",
+    "cat": "ligand-docking",
+    "code": "https://github.com/schrojunzhang/KarmaDock",
+    "web": null,
+    "ref": "10.1038/s43588-023-00511-5",
+    "refUrl": "https://doi.org/10.1038/s43588-023-00511-5",
+    "task": "Protein–ligand docking, binding pose prediction, and virtual screening"
+  },
+  {
+    "name": "Phi-Former",
+    "year": 2026,
+    "arch": "pairwise hierarchical transformer modeling atom- and motif-level compound–protein interactions",
+    "cat": "ligand-docking",
+    "code": null,
+    "web": "https://arxiv.org/abs/2602.05479",
+    "ref": "10.48550/arXiv.2602.05479",
+    "refUrl": "https://doi.org/10.48550/arXiv.2602.05479",
+    "task": "Compound–protein interaction and binding affinity prediction"
+  },
+  {
+    "name": "Seq2Pocket",
+    "year": 2026,
+    "arch": "protein language model binding-site predictor with embedding-based spatial smoothing for coherent pocket reconstruction",
+    "cat": "ligand-docking",
+    "code": "https://github.com/skrhakv/seq2pocket",
+    "web": "https://www.biorxiv.org/content/10.64898/2026.01.28.702257v1",
+    "ref": "10.64898/2026.01.28.702257",
+    "refUrl": "https://doi.org/10.64898/2026.01.28.702257",
+    "task": "Protein binding-site and cryptic pocket prediction from sequence embeddings"
+  },
+  {
+    "name": "Seq2Pocket",
+    "year": 2026,
+    "arch": "protein language model binding-site predictor with embedding-based spatial smoothing for coherent pocket reconstruction",
+    "cat": "tools",
+    "code": "https://github.com/skrhakv/seq2pocket",
+    "web": "https://www.biorxiv.org/content/10.64898/2026.01.28.702257v1",
+    "ref": "10.64898/2026.01.28.702257",
+    "refUrl": "https://doi.org/10.64898/2026.01.28.702257",
+    "task": "Protein binding-site and cryptic pocket prediction from sequence embeddings"
   }
 ]
