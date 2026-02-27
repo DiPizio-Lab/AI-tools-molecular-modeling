@@ -878,5 +878,37 @@
     "ref": "arXiv:2602.06706",
     "refUrl": "https://arxiv.org/abs/2602.06706",
     "task": "Fast de novo protein backbone design using latent structural tokenization and diffusion transformers"
-  }
+  },
+    {
+    "name": "Generative artificial intelligence for de novo protein design",
+    "year": 2024,
+    "arch": "review article",
+    "cat": "review-articles",
+    "code": null,
+    "web": null,
+    "ref": "10.1016/j.sbi.2024.102794",
+    "refUrl": "https://doi.org/10.1016/j.sbi.2024.102794",
+    "task": "Review of generative AI approaches for de novo protein design including language and diffusion models"
+  },
+    {
+    "name": "Machine learning for functional protein design",
+    "year": 2024,
+    "arch": "review article",
+    "cat": "review-articles",
+    "code": null,
+    "web": null,
+    "ref": "10.1038/s41587-024-02127-0",
+    "refUrl": "https://doi.org/10.1038/s41587-024-02127-0",
+    "task": "Review of machine learning approaches for functional protein design across sequence, structure, and label modalities"
+  },
+      "name": "Teaching AI to Speak Protein",
+    "year": 2025,
+    "arch": "protein language models (foundation sequence models)",
+    "cat": "review",
+    "code": null,
+    "web": "https://doi.org/10.1016/j.sbi.2025.102986",
+    "ref": "10.1016/j.sbi.2025.102986",
+    "refUrl": "https://doi.org/10.1016/j.sbi.2025.102986",
+    "task": "Protein language models and AI-driven protein prediction and design"
+} 
 ]
