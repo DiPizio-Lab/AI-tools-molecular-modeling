@@ -255,7 +255,12 @@
     letter-spacing: 0.09em;
     color: var(--text-light);
     white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
   }
+  th:hover { color: var(--accent); }
+  th.sort-asc::after  { content: ' ↑'; color: var(--accent); }
+  th.sort-desc::after { content: ' ↓'; color: var(--accent); }
 
   tbody tr {
     border-bottom: 1px solid var(--border);
@@ -616,6 +621,7 @@
       <span class="filter-label">Year</span>
       <select id="yearFilter">
         <option value="">All years</option>
+        <option value="2026">2026</option>
         <option value="2025">2025</option>
         <option value="2024">2024</option>
         <option value="2023">2023</option>
@@ -881,7 +887,45 @@ document.getElementById('searchInput').addEventListener('input', applyFilters);
 document.getElementById('yearFilter').addEventListener('change', applyFilters);
 document.getElementById('accessFilter').addEventListener('change', applyFilters);
 
-document.getElementById('catTabs').addEventListener('click', e => {
+// ── SORTING ──────────────────────────────────────────────────────────
+let sortCol = null;
+let sortDir = 1; // 1 = asc, -1 = desc
+
+const sortKeys = ['name', 'year', 'arch', 'task', 'cat', null, null, 'ref'];
+
+document.querySelector('thead tr').addEventListener('click', e => {
+  const th = e.target.closest('th');
+  if (!th) return;
+  const idx = Array.from(th.parentNode.children).indexOf(th);
+  const key = sortKeys[idx];
+  if (!key) return; // Code/Webserver columns not sortable
+
+  if (sortCol === idx) {
+    sortDir *= -1;
+  } else {
+    sortCol = idx;
+    sortDir = 1;
+  }
+
+  // Update header indicators
+  document.querySelectorAll('thead th').forEach(h => {
+    h.classList.remove('sort-asc', 'sort-desc');
+  });
+  th.classList.add(sortDir === 1 ? 'sort-asc' : 'sort-desc');
+
+  tools.sort((a, b) => {
+    let va = (a[key] || '').toString().toLowerCase();
+    let vb = (b[key] || '').toString().toLowerCase();
+    if (key === 'year') { va = parseInt(a[key]); vb = parseInt(b[key]); }
+    if (va < vb) return -sortDir;
+    if (va > vb) return  sortDir;
+    return 0;
+  });
+
+  renderRows();
+});
+
+
   const btn = e.target.closest('.cat-tab');
   if (!btn) return;
   document.querySelectorAll('.cat-tab').forEach(b => b.classList.remove('active'));
