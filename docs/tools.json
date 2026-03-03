@@ -1142,16 +1142,5 @@
     "ref": null,
     "refUrl": null,
     "task": "De novo protein binder design"
-  },
-  {
-    "name": "Design_a_Protein",
-    "year": 2025,
-    "arch": "AI-guided design platform",
-    "cat": "protein-design",
-    "code": null,
-    "web": "https://design-a-protein.com/",
-    "ref": null,
-    "refUrl": null,
-    "task": "De novo protein binder design"
   }
 ]
