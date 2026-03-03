@@ -1142,5 +1142,117 @@
     "ref": null,
     "refUrl": null,
     "task": "De novo protein binder design"
+  },
+  {
+    "name": "La-Proteina",
+    "year": 2025,
+    "arch": "Generative model",
+    "cat": "protein-design",
+    "code": "https://github.com/NVIDIA-Digital-Bio/la-proteina",
+    "web": "https://research.nvidia.com/labs/genair/la-proteina/",
+    "ref": "10.48550/arXiv.2507.09466",
+    "refUrl": "https://doi.org/10.48550/arXiv.2507.09466",
+    "task": "Atomistic protein design"
+  },
+  {
+    "name": "APM (All-Atom Protein Generative Model)",
+    "year": 2025,
+    "arch": "Generative model",
+    "cat": "protein-design",
+    "code": "https://github.com/bytedance/apm",
+    "web": null,
+    "ref": "10.48550/arXiv.2504.13075",
+    "refUrl": "https://doi.org/10.48550/arXiv.2504.13075",
+    "task": "Atomistic protein design"
+  },
+  {
+    "name": "BindCraft",
+    "year": 2025,
+    "arch": "Geometric deep learning",
+    "cat": "protein-design",
+    "code": "https://github.com/martinpacesa/BindCraft",
+    "web": "https://github.com/martinpacesa/BindCraft/blob/main/notebooks/BindCraft.ipynb",
+    "ref": "10.1038/s41586-025-09429-6",
+    "refUrl": "https://doi.org/10.1038/s41586-025-09429-6",
+    "task": "De novo protein binder design"
+  },
+  {
+    "name": "MapDiff",
+    "year": 2025,
+    "arch": "Graph-based denoising network",
+    "cat": "protein-design",
+    "code": "https://github.com/peizhenbai/MapDiff",
+    "web": null,
+    "ref": "10.1038/s42256-025-01042-6",
+    "refUrl": "https://doi.org/10.1038/s42256-025-01042-6",
+    "task": "Protein sequence design"
+  },
+  {
+    "name": "Proteus",
+    "year": 2024,
+    "arch": "Deep diffusion network",
+    "cat": "protein-design",
+    "code": "https://github.com/Wangchentong/Proteus",
+    "web": null,
+    "ref": "10.1101/2024.02.10.579791",
+    "refUrl": "https://doi.org/10.1101/2024.02.10.579791",
+    "task": "Protein backbone design"
+  },
+  {
+    "name": "EVOLVEpro",
+    "year": 2024,
+    "arch": "LM + Few-shot learning",
+    "cat": "protein-design",
+    "code": "https://github.com/idmjky/EvolvePro",
+    "web": "https://github.com/mat10d/EvolvePro/blob/main/colab/EvolvePro.ipynb",
+    "ref": "10.1101/2024.07.17.604015",
+    "refUrl": "https://doi.org/10.1101/2024.07.17.604015",
+    "task": "Improve protein activity"
+  },
+  {
+    "name": "ZymCTRL",
+    "year": 2024,
+    "arch": "Conditional language model",
+    "cat": "protein-design",
+    "code": "https://huggingface.co/AI4PD/ZymCTRL/tree/main",
+    "web": null,
+    "ref": "10.1101/2024.05.03.592223",
+    "refUrl": "https://doi.org/10.1101/2024.05.03.592223",
+    "task": "Enzyme design"
+  },
+  {
+    "name": "Evo",
+    "year": 2023,
+    "arch": "Large language model",
+    "cat": "protein-design",
+    "code": "https://github.com/evo-design/evo",
+    "web": "https://colab.research.google.com/github/evo-design/evo/blob/main/scripts/hello_evo.ipynb",
+    "ref": "10.1126/science.ado9336",
+    "refUrl": "https://doi.org/10.1126/science.ado9336",
+    "task": "Codesign of DNA, RNA, and protein molecules"
+  },
+  {
+    "name": "MaSIF",
+    "year": 2023,
+    "arch": "Geometric deep learning",
+    "cat": "protein-design",
+    "code": "https://github.com/LPDI-EPFL/masif_seed",
+    "web": null,
+    "ref": "10.1038/s41586-023-05993-x",
+    "refUrl": "https://doi.org/10.1038/s41586-023-05993-x",
+    "task": "Protein binder design"
+  },
+  {
+    "name": "ProtGPT2",
+    "year": 2022,
+    "arch": "Language model",
+    "cat": "protein-design",
+    "code": "https://huggingface.co/nferruz/ProtGPT2",
+    "web": null,
+    "ref": "10.1038/s41467-022-32007-7",
+    "refUrl": "https://doi.org/10.1038/s41467-022-32007-7",
+    "task": "De novo protein sequence design"
   }
+]
+  
 ]
